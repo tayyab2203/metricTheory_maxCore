@@ -713,7 +713,7 @@ body {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 14px 20px;
+        padding: 2px 20px;
         background: #ffffff;
         border-bottom: 1px solid #e2e2e2;
         max-width: 900px;
@@ -721,7 +721,7 @@ body {
       }
 
       .logo {
-        height: 28px;
+        height: 250px;
         width: auto;
       }
 
@@ -1054,3 +1054,28 @@ body {
 }
 
 
+.custom-tabs .nav-link {
+  color: #7b61ff;
+  font-weight: 600;
+  font-size: 14px;
+  position: relative;
+  border-radius: 0;
+  background: transparent;
+}
+
+.custom-tabs .nav-link.active {
+  color: #7b61ff;
+  background-color: transparent;
+}
+
+.custom-tabs .nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 30px;
+  border-radius: 2px;
+  background: linear-gradient(to right, #7b61ff, #3f89ff);
+}
