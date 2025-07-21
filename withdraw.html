@@ -15,25 +15,46 @@
     <div class="col-lg-8 col-md-12 col-sm-12 col-12 p-0">
 
 
-    <main class=" px-0 mx-auto">
-        <nav class="navbar navbar-expand-lg p-0" style="background-color:var(--navbar-bg);">
+    <main class=" container-lg px-md-5 px-0 mx-auto">
+        <nav
+            class="navbar navbar-expand-lg p-0"
+            style="background-color: var(--navbar-bg)"
+          >
             <div class="container-fluid">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" style="color:var(--navbar-texts);" href="./index.html"><i class="fa-solid fa-chevron-left"></i></a>
-                </div>
-                <div class="navbar-brand text-white text-center flex-grow-1" style="font-size: 20px; font-weight: bold;">Deposit</div>
+              <div class="navbar-nav">
+                <a
+                  class="nav-item nav-link"
+                  style="color: var(--navbar-text)"
+                  href="./index.html"
+                >
+                  <i class="fa-solid fa-chevron-left"></i>
+                </a>
+              </div>
+              <div
+                class="navbar-brand text-white text-center flex-grow-1"
+                style="font-size: 20px; font-weight: bold"
+              >
+                Withdraw
+              </div>
             </div>
-        </nav>
+          </nav>
 
         <div class="withdraw-section" style="background-color:var(--background-color); min-height: 100vh;">
-            <ul class="nav nav-pills mb-3 bg-white" id="pills-tab" role="tablist">
-                <li class="nav-item mx-5" role="presentation">
-                    <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Withdraw</a>
-                </li>
-                <li class="nav-item ms-auto me-5 px-5" role="presentation">
-                    <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">History</a>
-                </li>
-            </ul>
+           <ul class="nav custom-tabs nav-pills mb-3 bg-white d-flex justify-content-between px-5" id="pills-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
+      Withdraw
+    </a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">
+      History
+    </a>
+  </li>
+</ul>
+
+
+
 
             <!-- Content for the tabs -->
             <div class="tab-content" id="pills-tabContent">

@@ -101,4 +101,31 @@ filterTasks('all');
   });
 
 
+  function openServicePopup() {
+    document.getElementById('modalBackdrop').classList.remove('d-none');
+    document.getElementById('servicePopup').classList.remove('d-none');
+    document.getElementById('cancelContainer').classList.remove('d-none');
+  }
+
+  function closeServicePopup() {
+    document.getElementById('modalBackdrop').classList.add('d-none');
+    document.getElementById('servicePopup').classList.add('d-none');
+    document.getElementById('cancelContainer').classList.add('d-none');
+  }
+
+
+  function openServicePopup() {
+    document.getElementById("modalBackdrop").classList.remove("d-none");
+    document.getElementById("servicePopup").classList.remove("d-none");
+    document.getElementById("cancelContainer").classList.remove("d-none");
+  }
+
+  function closeServicePopup() {
+    document.getElementById("modalBackdrop").classList.add("d-none");
+    document.getElementById("servicePopup").classList.add("d-none");
+    document.getElementById("cancelContainer").classList.add("d-none");
+  }
+
+
+
 
